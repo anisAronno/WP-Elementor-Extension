@@ -1,0 +1,14 @@
+ul, li{
+	margin: 0px;
+	padding: 0px;
+}
+.social-icon-custom-css{
+	display: flex;
+	list-style-type: none;
+	justify-content: start;
+}
+.social-icon-custom-css-li{
+	padding: 0px 10px;
+	font-size: 30px;
+	color: #fff;
+}

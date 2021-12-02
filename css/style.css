@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Marcellus;
+}
+.elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+  padding: 0px !important;
+}
+
+
+.elementor-8 .elementor-element.elementor-element-de8d0be .featured_services i {
+  font-size: 50px;
+  margin-top: 1rem;
+}
+.counter-section {
+ padding: 0px 10%;
+}
+
+.services {
+ 
+ background-color: transparent !important; 
+
+}
+

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42.002" height="42.554" viewBox="0 0 42.002 42.554">
+  <g id="app_development" transform="translate(0.75 0.75)">
+    <path id="Path_35" data-name="Path 35" d="M501.51,758.213h20.251v-22.6l-7.421-18.457H488.681l-7.421,18.457v22.6Z" transform="translate(-481.26 -717.158)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_36" data-name="Path 36" d="M521.761,734.158H507.925c0,2.566-3.849,6.526-6.415,6.526s-6.415-3.96-6.415-6.526H481.26" transform="translate(-481.259 -712.348)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <line id="Line_2" data-name="Line 2" x2="16.678" transform="translate(11.912 6.415)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <line id="Line_3" data-name="Line 3" x2="20.848" transform="translate(9.827 10.584)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <line id="Line_4" data-name="Line 4" x2="25.018" transform="translate(7.742 16.037)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <line id="Line_5" data-name="Line 5" x2="25.546" transform="translate(8.761 35.719)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" stroke-dasharray="3 5"/>
+  </g>
+</svg>
