@@ -8,6 +8,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 /**
  *
  * The main class that initiates and runs the plugin.
+ * The main class that initiates and runs the plugin.
  *
  * @since 1.0.0
  */
