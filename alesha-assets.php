@@ -49,6 +49,7 @@ function appsero_init_tracker_atl_extension() {
 
 }
 
+
 appsero_init_tracker_atl_extension();
 
 
