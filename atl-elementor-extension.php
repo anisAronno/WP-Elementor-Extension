@@ -337,7 +337,7 @@ final class Elementor_Atl_Extension {
 		wp_register_script( 'atl-glightbox-js', plugins_url( 'js/glightbox.min.js', __FILE__ ) );
 		wp_register_script( 'atl-glightbox-js', plugins_url( 'js/glightbox.min.js', __FILE__ ) );
 
-		wp_enqueue_script('atl-jquery-js');
+		// wp_enqueue_script('atl-jquery-js');
 		wp_enqueue_script('atl-waypoint-js');
 		wp_enqueue_script('atl-counterup-js');
 		wp_enqueue_script('atl-owl-js');
