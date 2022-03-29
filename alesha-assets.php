@@ -19,11 +19,6 @@ Domain Path: /languages/
  * @return void
  */
 require __DIR__ . '/vendor/autoload.php';
-/**
- * Initialize the plugin tracker
- *
- * @return void
- */
 
 /**
  * Initialize the plugin tracker
@@ -32,23 +27,21 @@ require __DIR__ . '/vendor/autoload.php';
  */
 function appsero_init_tracker_atl_extension() {
 
-  if ( ! class_exists( 'Appsero\Client' ) ) {
-    require_once __DIR__ . '/appsero/src/Client.php';
-  }
+    if ( ! class_exists( 'Appsero\Client' ) ) {
+      require_once __DIR__ . '/appsero/src/Client.php';
+    }
 
-  $client = new Appsero\Client( '5419e35b-c623-4c34-be39-cb6594e3289d', 'Alesha Tech Assets', __FILE__ );
+    $client = new Appsero\Client( '5419e35b-c623-4c34-be39-cb6594e3289d', 'Alesha Tech Assets', __FILE__ );
 
-  // Active insights
-  $client->insights()->init();
+    // Active insights
+    $client->insights()->init();
 
-  // Active automatic updater
-  $client->updater();
+    // Active automatic updater
+    $client->updater();
 
 }
 
 appsero_init_tracker_atl_extension();
-
-
 
 require_once( __DIR__ . '/atl-elementor-extension.php' );
 require_once( __DIR__ . '/social-icon.php' );

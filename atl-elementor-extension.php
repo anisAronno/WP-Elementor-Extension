@@ -304,28 +304,48 @@ final class Elementor_Atl_Extension {
 		wp_register_style( 'atl-owl-style', plugins_url( 'js/owl.css', __FILE__ ) );
 		wp_register_style( 'atl-extension-style', plugins_url( 'css/style.css', __FILE__ ) );
 		wp_register_style( 'atl-glightbox-style', plugins_url( 'css/glightbox.min.css', __FILE__ ) );
+		wp_register_style( 'atl-animate-style', plugins_url( 'css/animate.min.css', __FILE__ ) );
+		wp_register_style( 'atl-aos-style', plugins_url( 'css/aos.min.css', __FILE__ ) );
+		wp_register_style( 'atl-bootnavbar-style', plugins_url( 'css/bootnavbar.min.css', __FILE__ ) );
+		wp_register_style( 'atl-fontawesome-style', plugins_url( 'css/fontawesome.min.css', __FILE__ ) );
 		
 		wp_enqueue_style('atl-index-style');
 		wp_enqueue_style('atl-extension-font');
 		wp_enqueue_style('atl-theme-font');
 		wp_enqueue_style('atl-owl-font');
-		wp_enqueue_style('atl-extension-style');
 		wp_enqueue_style('atl-glightbox-style');
+		wp_enqueue_style('atl-animate-style');
+		wp_enqueue_style('atl-aos-style');
+		wp_enqueue_style('atl-bootnavbar-style');
+		wp_enqueue_style('atl-fontawesome-style');
+		wp_enqueue_style('atl-extension-style');
 
 	}	
 
     // Custom JS
 	public function widget_scripts() {
+		wp_register_script( 'atl-jquery-js', plugins_url( 'js/jquery.min.js', __FILE__ ) );
 		wp_register_script( 'atl-waypoint-js', plugins_url( 'js/waypoint.min.js', __FILE__ ) );
 		wp_register_script( 'atl-counterup-js', plugins_url( 'js/counterup.min.js', __FILE__ ) );
 		wp_register_script( 'atl-owl-js', plugins_url( 'js/owl.js', __FILE__ ) );
 		wp_register_script( 'atl-main-js', plugins_url( 'js/main.js', __FILE__ ) );
 		wp_register_script( 'atl-glightbox-js', plugins_url( 'js/glightbox.min.js', __FILE__ ) );
-		// wp_enqueue_script('atl-waypoint-js');
-		// wp_enqueue_script('atl-counterup-js');
+		wp_register_script( 'atl-all-js', plugins_url( 'js/all.min.js', __FILE__ ) );
+		wp_register_script( 'atl-aos-js', plugins_url( 'js/aos.min.js', __FILE__ ) );
+		wp_register_script( 'atl-bootstrap-bundle-js', plugins_url( 'js/bootstrap.bundle.min.js', __FILE__ ) );
+		wp_register_script( 'atl-glightbox-js', plugins_url( 'js/glightbox.min.js', __FILE__ ) );
+		wp_register_script( 'atl-glightbox-js', plugins_url( 'js/glightbox.min.js', __FILE__ ) );
+		wp_register_script( 'atl-glightbox-js', plugins_url( 'js/glightbox.min.js', __FILE__ ) );
+
+		wp_enqueue_script('atl-jquery-js');
+		wp_enqueue_script('atl-waypoint-js');
+		wp_enqueue_script('atl-counterup-js');
 		wp_enqueue_script('atl-owl-js');
-		wp_enqueue_script('atl-main-js');
 		wp_enqueue_script('atl-glightbox-js');
+		wp_enqueue_script('atl-bootstrap-bundle-js');
+		wp_enqueue_script('atl-all-js');
+		wp_enqueue_script('atl-aos-js');
+		wp_enqueue_script('atl-main-js');
 	}
 
     // Custom Category
