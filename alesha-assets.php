@@ -4,7 +4,7 @@
 Plugin Name: Alesha Tech Assets
 Plugin URI: https://www.aleshatech.net
 Description: Alesha Tech Aseets
-Version: 1.0.0
+Version: 2.2.3
 Author: Alesha Tech
 Author URI: https://www.aleshatech.net
 License: GPLv2 or later
