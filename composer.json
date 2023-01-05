@@ -1,5 +1,17 @@
 {
+    "name": "wedevsw/atl-extension",
+    "autoload": {
+        "psr-4": {
+            "Wedevsw\\AtlExtension\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Md. Anichur Rahaman",
+            "email": "38912435+anis3139@users.noreply.github.com"
+        }
+    ],
     "require": {
-        "appsero/client": "^1.2"
+        "appsero/client": "^1.2.2"
     }
 }
