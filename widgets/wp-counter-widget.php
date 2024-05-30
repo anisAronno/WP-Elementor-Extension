@@ -6,7 +6,7 @@
  *
  * @since 1.0.0
  */
-class Alesha_Counter_Widget extends \Elementor\Widget_Base {
+class WP_Counter_Widget extends \Elementor\Widget_Base {
 
 	/**
 	 * Get widget name.
@@ -19,7 +19,7 @@ class Alesha_Counter_Widget extends \Elementor\Widget_Base {
 	 * @return string Widget name.
 	 */
 	public function get_name() {
-		return 'Alesha Counter';
+		return 'WP Counter';
 	}
 
 	/**

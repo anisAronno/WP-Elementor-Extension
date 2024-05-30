@@ -246,7 +246,7 @@ final class Elementor_Atl_Extension {
 		require_once( __DIR__ . '/widgets/bannar-widget.php' );
 		require_once( __DIR__ . '/widgets/about-widget.php' );
 		require_once( __DIR__ . '/widgets/heading-widget.php' );
-		require_once( __DIR__ . '/widgets/alesha-counter-widget.php' );
+		require_once( __DIR__ . '/widgets/wp-counter-widget.php' );
 		require_once( __DIR__ . '/widgets/about-us-widget.php' );
 		require_once( __DIR__ . '/widgets/solutions-widget.php' );
 		require_once( __DIR__ . '/widgets/address-widget.php' );
@@ -260,7 +260,7 @@ final class Elementor_Atl_Extension {
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \About_us_Widget() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Heading_Widget() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \About_Widget() );
-		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Alesha_Counter_Widget() );
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \WP_Counter_Widget() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Services_Widget() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Address_Widget() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \About_Feature_Widget() );

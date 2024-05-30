@@ -1,16 +1,25 @@
 <?php
 
-/*
-Plugin Name: Alesha Tech Assets
-Plugin URI: https://www.aleshatech.net
-Description: Alesha Tech Aseets
-Version: 2.2.8
-Author: Alesha Tech
-Author URI: https://www.aleshatech.net
-License: GPLv2 or later
-Text Domain: atl-extension
-Domain Path: /languages/
-*/
+/**
+ * Plugin Name: WP Elementor Extension
+ * Plugin URI: https://anichur.com
+ * Description: WP Elementor Extension
+ * Version: 3.0.0
+ * Author:  Anis Aronno
+ * Author URI: https://anichur.com
+ * Text Domain: atl-extension
+ * Domain Path: /languages/
+ * Requires at least: 5.9
+ * Tested up to: 6.5
+ * Requires PHP: 7.4
+ * Requires PHP Architecture: 64 bits
+ * Requires Plugins: elementor, contact-form-7
+ * WC requires at least: 6.9
+ * WC tested up to: 8.9
+ * Woo:
+ *
+ * @package WooCommerce\Admin
+ */
 
 
 /**
@@ -33,19 +42,19 @@ function appsero_init_tracker_atl_extension()
         require_once __DIR__ . '/appsero/src/Client.php';
     }
 
-    $client = new Appsero\Client('5419e35b-c623-4c34-be39-cb6594e3289d', 'Alesha Tech Assets', __FILE__);
+    $client = new Appsero\Client('5419e35b-c623-4c34-be39-cb6594e3289d', 'WP Elementor Extension Assets', __FILE__);
 
     // Active insights
     $client->insights()->add_plugin_data()->init();
 
     // Active automatic updater
-    $client->updater();
+    Appsero\Updater::init($client);
 
     // Active license page and checker
     $args = array(
         'type'       => 'options',
-        'menu_title' => 'Alesha Tech Assets',
-        'page_title' => 'Alesha Tech Assets Settings',
+        'menu_title' => 'WP Elementor Extension Assets',
+        'page_title' => 'WP Elementor Extension Settings',
         'menu_slug'  => 'atl_extension_settings',
     );
     $client->license()->add_settings_page($args);
