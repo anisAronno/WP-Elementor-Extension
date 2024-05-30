@@ -13,7 +13,7 @@
  * Tested up to: 6.5
  * Requires PHP: 7.4
  * Requires PHP Architecture: 64 bits
- * Requires Plugins: elementor, contact-form-7
+ * Requires Plugins: elementor
  * WC requires at least: 6.9
  * WC tested up to: 8.9
  * Woo:
