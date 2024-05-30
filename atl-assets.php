@@ -17,9 +17,7 @@
  * WC requires at least: 6.9
  * WC tested up to: 8.9
  * Woo:
- *
- * @package WooCommerce\Admin
- */
+*/
 
 
 /**
