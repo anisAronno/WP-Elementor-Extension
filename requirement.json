@@ -1,3 +1,9 @@
 {
-    "elementor" : "3.0.0"
+    "php" : "7.0",
+    "wordpress" : "5.8",
+    "tested" : "5.8",
+    "change_log": " 1.0.0 - Initial Release",
+    "required_plugins":{
+        "elementor" : "3.2.0"
+    }
 }
