@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "54675a8dc51c224a48d5067a5d7ea584",
+    "content-hash": "682f1c374fde5dc1876b12c9ad75fa34",
     "packages": [
         {
             "name": "appsero/client",
@@ -62,16 +62,16 @@
         },
         {
             "name": "appsero/updater",
-            "version": "v1.0.0",
+            "version": "v2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Appsero/updater.git",
-                "reference": "541cf090d42a9354aee2cf6438b3eee0e5e34a99"
+                "reference": "58be2387dea35ffbca41970186d2251a00b2c44a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Appsero/updater/zipball/541cf090d42a9354aee2cf6438b3eee0e5e34a99",
-                "reference": "541cf090d42a9354aee2cf6438b3eee0e5e34a99",
+                "url": "https://api.github.com/repos/Appsero/updater/zipball/58be2387dea35ffbca41970186d2251a00b2c44a",
+                "reference": "58be2387dea35ffbca41970186d2251a00b2c44a",
                 "shasum": ""
             },
             "type": "library",
@@ -93,9 +93,9 @@
             "description": "Appsero client updater module",
             "support": {
                 "issues": "https://github.com/Appsero/updater/issues",
-                "source": "https://github.com/Appsero/updater/tree/v1.0.0"
+                "source": "https://github.com/Appsero/updater/tree/v2.2.0"
             },
-            "time": "2023-12-06T08:32:44+00:00"
+            "time": "2024-08-22T09:23:04+00:00"
         }
     ],
     "packages-dev": [],
