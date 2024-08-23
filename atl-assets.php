@@ -4,7 +4,7 @@
  * Plugin Name: WP Elementor Extension
  * Plugin URI: https://anichur.com
  * Description: WP Elementor Extension
- * Version: 3.0.2
+ * Version: 3.0.3
  * Author:  Anis Aronno
  * Author URI: https://anichur.com
  * Text Domain: atl-extension
